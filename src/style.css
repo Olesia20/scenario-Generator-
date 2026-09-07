@@ -13,7 +13,11 @@ body {
     -10px -10px 20px rgba(253, 252, 252, 0.514);
   overflow: hidden;
 }
-
+.hint {
+  padding-left: 15px;
+  padding-bottom: 5px;
+  color: rgba(86, 84, 84, 0.647);
+}
 h1 {
   font-weight: 800;
   font-size: 36px;
@@ -22,7 +26,7 @@ h1 {
   color: rgb(115, 135, 111);
 }
 form {
-  padding: 30px;
+  padding-bottom: 30px;
   display: flex;
 }
 .instruction {

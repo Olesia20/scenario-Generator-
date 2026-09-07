@@ -15,6 +15,9 @@ function generateScenario(event) {
   let context =
     "You are a creative specialist who writes screenplays for different films. Your mission is to generate a short movie scene in basic HTML . Make sure to follow the user instructions. Write please just scenario and don't write ```html above";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+  let scenarioElement = document.querySelector("#scenario");
+  scenarioElement.innerHTML = `Generating a Scenario about ${instractionElement.value} `;
+
   axios.get(apiUrl).then(displayScenario);
 }
 
