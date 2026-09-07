@@ -1,7 +1,61 @@
 body {
-  text-align: center;
+  background-color: #dbd6ce;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(86, 84, 84);
+}
+.container {
+  padding: 15px;
+  margin: 120px auto;
+  max-width: 600px;
+  border-radius: 30px;
+  box-shadow:
+    10px 10px 20px rgba(20, 19, 19, 0.26),
+    -10px -10px 20px rgba(253, 252, 252, 0.514);
+  overflow: hidden;
 }
 
 h1 {
-  color: blueviolet;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+  color: rgb(115, 135, 111);
+}
+form {
+  padding: 30px;
+  display: flex;
+}
+.instruction {
+  font-size: 16px;
+  width: 80%;
+  line-height: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  background: #dbd6ce;
+  box-shadow:
+    inset 8px 8px 4px rgba(40, 38, 38, 0.15),
+    inset -8px -8px 8px rgba(242, 241, 241, 0.8);
+  box-sizing: border-box;
+}
+.submit-button {
+  font-size: 16px;
+  color: rgb(86, 84, 84);
+  margin-left: 10px;
+  background-color: #dbd6ce;
+  border: none;
+  border-radius: 20px;
+  width: 150px;
+  box-shadow:
+    10px 10px 10px rgba(255, 255, 255, 0.457),
+    -5px -5px 5px rgba(0, 0, 0, 0.15241);
+}
+footer {
+  text-align: center;
+  font-size: 15px;
+}
+a {
+  color: rgb(115, 135, 111);
+  text-decoration: none;
+  cursor: pointer;
 }
