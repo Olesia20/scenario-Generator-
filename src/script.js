@@ -6,7 +6,6 @@ function displayScenario(response) {
     cursore: "",
   });
 }
-
 function generateScenario(event) {
   event.preventDefault();
   let instractionElement = document.querySelector("#user-instruction");
